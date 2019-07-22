@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/Mega/.vs/Mega/config
+/Mega/.vs/Mega/v16
+/Mega/packages
+/Mega/WebApplication/bin
+/Mega/WebApplication/obj/Debug
