@@ -8,7 +8,6 @@ namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
-
         // test for all cool people in this room
         public ActionResult Index()
         {
@@ -23,6 +22,13 @@ namespace WebApplication.Controllers
         }
 
         public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult XXX()
         {
             ViewBag.Message = "Your contact page.";
 
